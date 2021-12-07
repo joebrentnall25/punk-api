@@ -7,10 +7,10 @@ import beers from "../../assets/data/beers";
 const CardList = () => {
     return (
         <>
-        <div className="card__container">
+        <div className="card">
             {
-                beers.map(beer => {
-                    return <BeerCard beerSource={beer.image_url} beerTitle={beer.name} beerDescription={beer.description}/>
+                beers.map((beer, index) => {
+                    return <BeerCard key={index} beerSource={beer.image_url} beerTitle={beer.name} beerDescription={beer.description}/>
                 })
             }
         </div>
