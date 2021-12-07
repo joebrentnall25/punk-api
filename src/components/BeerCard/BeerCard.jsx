@@ -1,4 +1,4 @@
-import "BeerCard.scss";
+import "./BeerCard.scss";
 
 const BeerCard = props => {
     return (
@@ -11,3 +11,5 @@ const BeerCard = props => {
         </>
     )
 }
+
+export default BeerCard;

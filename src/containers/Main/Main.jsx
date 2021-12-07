@@ -7,3 +7,5 @@ const Main = () => {
         <CardList/>
     )
 }
+
+export default Main;
