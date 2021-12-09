@@ -2,10 +2,10 @@ import "./Main.scss";
 
 import CardList from '../CardList/CardList';
 
-const Main = () => {
+const Main = props => {
     return (
         <div className="main">
-            <CardList/>
+            <CardList beersArr={props.beersArr}/>
         </div>
     )
 }
