@@ -48,8 +48,8 @@ function App() {
 
   const generateUrl = () => {
     let url = baseUrl;
-    if(isClassicRange){ url += "brewed-before=01-2010&" }
-    if(isHighAbv){ url +="abv-gt=6&"}
+    if(isClassicRange){ url += "brewed_before=01-2010&" }
+    if(isHighAbv){ url +="abv_gt=6&"}
     console.log(url)
     return url;
   }
